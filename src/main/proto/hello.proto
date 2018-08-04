@@ -1,0 +1,13 @@
+package by.tsyd.protobuf.proto;
+
+option java_package = "by.tsyd.protobuf.proto";
+option java_outer_classname = "HelloProtos";
+
+message Hello {
+    required string name = 1;
+}
+
+message HelloResponse {
+    required string message = 1;
+}
+
